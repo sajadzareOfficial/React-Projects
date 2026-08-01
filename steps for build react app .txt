@@ -1,0 +1,34 @@
+step 1 : 
+build react app with vite like {
+
+		npm create vite@latest  => select name and select react' 
+
+
+		npm start => for build all dependencies
+
+}
+
+step 2 :
+
+run app {
+		npm run dev  
+}
+
+step 3:
+configing tailwindcss {
+
+		npm install @tailwindcss/vite
+
+		add this text { import tailwindcss from '@tailwindcss/vite' } at vite.config.js
+		copy and replace {
+					import { defineConfig } from 'vite'
+					import react from '@vitejs/plugin-react'
+					import tailwindcss from 'tailwindcss/vite'
+					// https://vite.dev/config/
+					export default defineConfig({
+					  plugins: [tailwindcss(),react()],
+					})
+
+					} at vite.config.js
+		and add @import 'tailwindcss'; to index.css
+ }
