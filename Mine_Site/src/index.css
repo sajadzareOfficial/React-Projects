@@ -1,0 +1,20 @@
+@import 'tailwindcss';
+@custom-variant light (&:where(.light, .light *));
+@theme{
+    --font-header: "Space Grotesk", Space-Grotesk;
+    --font-header2: "Geist", Geist-semiBold;
+    --color-dark:#020617;
+    --color-lightMode:#EDF7F6;
+    --color-light-blue:#51E2F5;
+    --color-light__text:#0000009c;
+    --color-light:#fff;
+    --color-secondary:#06b6d4;
+    --color-linear1:#06B6D4; 
+    --color-linear2:#8B5CF6; 
+    --color-linear3:#EC4899; 
+    --color-border:#1E293B;
+    --color-project:#0F172A;
+    --color-FrameWork:#94A3B8;
+    --color-subTitle:#94A3B8;
+}  
+
