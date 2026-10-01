@@ -7,12 +7,18 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-Test Projects
+# Projects
+TestProjects
+gocart
+
+# Dependencies
 node_modules
+
+# Build
 dist
 dist-ssr
-.git
-git
+
+# Local files
 *.local
 
 # Editor directories and files
@@ -25,4 +31,3 @@ git
 *.njsproj
 *.sln
 *.sw?
-
