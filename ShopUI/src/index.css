@@ -1,0 +1,25 @@
+@import "tailwindcss";
+@custom-variant light (&:where(.light, .light *));
+@theme{
+
+  --color-DarkHeaderColor:#3A0CA3;
+  --color-darkPrimary:#d1d5dc;
+  --color-darkSecondary :#99a1af;
+  --color-lightPrimary:#0c0c0c;
+  --color-lightSecondary :#23254e;
+
+}
+@utility flex-center {
+  @apply flex items-center justify-center;
+}
+@utility flex-col-center {
+  @apply flex flex-col justify-center items-center;
+}
+
+@utility bg-Dark-Gradiant{
+  @apply bg-transparent bg-linear-to-b from-[#050505] to-[#3A0CA3]
+}
+@utility bg-Light-Gradiant{
+  @apply bg-transparent bg-linear-to-b from-[#00c896] to-[#040404]
+}
+
